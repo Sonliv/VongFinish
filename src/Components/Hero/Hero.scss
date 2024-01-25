@@ -1,0 +1,31 @@
+.swiper{
+    &-button-next,&-button-prev{
+        color: #fff !important;
+        fill: white !important;
+        stroke: white !important;
+    }
+    &-button-prev{
+        padding: 40px;
+    }
+    &-button-next{
+        padding: 40px;
+    }
+}
+
+
+@media (max-width: 950px){
+    .hero.xl-container{
+        margin-bottom: 20px;
+    }   
+}
+
+@media (max-width: 991.98px) {
+    .swiper{
+        &-button-prev{
+            padding: 20px;
+        }
+        &-button-next{
+            padding: 20px;
+        }
+    }
+}
